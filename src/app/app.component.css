@@ -1,0 +1,10 @@
+.container {
+  margin-top: 30px;
+}
+
+.content{
+  margin: 4rem auto;
+  padding: 2.7rem;
+  border: 1px solid #d4d4d4;
+  border-radius: 7px;
+}
