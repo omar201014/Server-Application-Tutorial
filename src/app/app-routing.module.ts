@@ -13,7 +13,7 @@ import { UserComponent } from "./users/user/user.component";
 import { UsersComponent } from "./users/users.component";
 
 const appRoutes:Routes = [
-    {path:'' , component:HomeComponent} ,
+    {path:'' , component:HomeComponent ,pathMatch:'full'} ,
   
     {path:'users' ,component:UsersComponent ,children:[
       {path:':id/:name' ,component:UserComponent}
@@ -26,7 +26,7 @@ const appRoutes:Routes = [
   
     // {path:'not-found' ,component:PageNotFoundComponent},
     {path:'not-found' ,component:ErrorPageComponent ,data:{message:'Error: 404 not found'}},
-    {path:'**' , redirectTo:'/not-found' ,pathMatch:'full'}
+    {path:'**' , redirectTo:'/not-found'}
     
   ]
 
