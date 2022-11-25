@@ -24,4 +24,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## live server
 
-[you can check the live Application from here](https://omar201014.github.io/Server-Application-Tutorial/Server-Application-Tutorial/) page.
+you can check the live Application from [here](https://omar201014.github.io/Server-Application-Tutorial/Server-Application-Tutorial/) 
